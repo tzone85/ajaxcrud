@@ -9,13 +9,11 @@
                         <div class="input-group">
                             <input type="text" class="form-control">
                             <span class="input-group-btn">
-                            <button class="btn btn-success">
-
-                            </button>
+                            <button class="btn btn-success">Add</button>
                             </span>
                         </div>
 
-                        <div class="task-list">
+                        <div class="tasks-list">
                             <ul class="list-unstyled">
                                 <li>
                                     <div class="checkbox"><label><input type="checkbox"></label>Task 1</div>

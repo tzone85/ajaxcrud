@@ -43253,8 +43253,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
     mounted: function mounted() {
@@ -43291,11 +43289,13 @@ var staticRenderFns = [
                 }),
                 _vm._v(" "),
                 _c("span", { staticClass: "input-group-btn" }, [
-                  _c("button", { staticClass: "btn btn-success" })
+                  _c("button", { staticClass: "btn btn-success" }, [
+                    _vm._v("Add")
+                  ])
                 ])
               ]),
               _vm._v(" "),
-              _c("div", { staticClass: "task-list" }, [
+              _c("div", { staticClass: "tasks-list" }, [
                 _c("ul", { staticClass: "list-unstyled" }, [
                   _c("li", [
                     _c("div", { staticClass: "checkbox" }, [

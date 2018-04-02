@@ -7,13 +7,14 @@
 
         <meta name="csrf_token" content="{{ csrf_token() }}">
         <title>Laravel Todo App</title>
+        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
 
 
     </head>
     <body>
         <div class="container" id="app">
-            Our tasks will be here..
+            <tasks></tasks>
         </div>
 
         <script {{ asset('js/app.js') }}></script>
